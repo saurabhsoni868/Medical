@@ -1,0 +1,33 @@
+About Us
+1. Logo of Our Application
+   Quote Of Our Application Below Our Logo
+2. Version Number(In Date Of Latest Update)
+3. Contact Us On
+       ->Follow us on Facebook
+       ->Follow Us On Instagram
+       ->Business Account : Gmail Account
+4. Disclaimer
+    ->This application is created under the program of SMART INDIA HACKATHON (SIH) - 2019 by the team Inovars for FLUCON Pvt. Ltd. . The development of this 
+      application was based on providing the basic health facilites to all those people who find it diffcult to communicate with the doctors of town or big 
+      cities and for this there was a use of an intermediate connection to establish the communication between the people and the doctor's via various technology
+      factors like mobile application at basic and other like call or video-call if possible. This could help provide the basic the health facilites to the people
+      in very short period of time. This included the third party mode known to be Admin where the data related patient and doctor's are stored and can be fetched
+      when needed.
+
+    -> Copyrights (logo) Application Name (All Rights Reserved)
+5. Terms Of Use
+   This speicification is made to insure all the poeple who are going to use this appliaction are abide by the rules and regulations that have been implemented in the
+   process of making of this application.
+   ->Patient 
+     A patient works as a outdoor input for this application this entity is not directly in connection with this appliaction but through another entity they are
+     in connection with. The patient provides there health issues to the mediator.
+   ->Pharmacist 
+     This entity fetch all the outdoor input from the entity from the entity patient and feeds that data in the databse of the application so that oter entity that is 
+     the doctor and the admin can access  the databse or the outdoor input.
+   ->Doctor 
+     Doctor fetch the outdoor input that is provided in the databse of the application by the entity pharmacist. The doctor access the input problem and provide the 
+     solution to the the mediator pharmacist so that that entity and that solution is too stored in the databse of the application. The solution that is subjected by
+     the doctor to the pharmacist then the pharnmacist provides the soltuion to the people who are in need. 
+   ->Admin
+     The admin that is known as administrator has an access to the database of the application where the details like user login of doctor and pharmacist is there. 
+     The server is under the charge of the admin so that he has a look on the wholesum process.   

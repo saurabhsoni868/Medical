@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".Doctor_register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Health Care Center Register"
+                android:textSize="50dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                />
+
+            <EditText
+                android:id="@+id/Center_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Please Enter Your Center Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Center_email1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Please Enter Your Email"
+                android:inputType="textEmailAddress" />
+
+
+            <EditText
+                android:id="@+id/health_password1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Please Enter Your  Password"
+                android:inputType="textPassword" />
+
+
+
+            <EditText
+                android:id="@+id/health_mobile1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:layout_gravity="center_horizontal"
+                android:hint="Enter Your Mobile Number"
+                android:textAlignment="center"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/health_registration1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:hint="Enter Your NPI "
+                android:inputType="text"/>
+
+            <Button
+
+                android:id="@+id/btn_health_registration1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button"
+                android:text="Register"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here to login"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/login"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
